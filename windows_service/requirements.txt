@@ -1,0 +1,10 @@
+# Core dependencies
+SpeechRecognition>=3.10.0
+websockets>=12.0
+pyaudio>=0.2.13       # microphone backend for SpeechRecognition
+
+# Windows service support (Windows only)
+pywin32>=306; sys_platform == "win32"
+
+# Optional: offline speech recognition
+# pocketsphinx>=5.0.3
