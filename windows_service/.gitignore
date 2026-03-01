@@ -1,0 +1,26 @@
+# Python byte-compiled / optimised / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Distribution / packaging
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# pytest cache
+.pytest_cache/
+
+# mypy / pyright
+.mypy_cache/
+.pyright/
+
+# Runtime config (kept in APPDATA, not repo)
+config.json
